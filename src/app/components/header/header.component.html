@@ -1,0 +1,11 @@
+<div>
+  <header>
+    <h1 class="title">Logging Service</h1>
+    <div class="container">
+      <button class="container__button" (click)="tableFormat()">Table</button>
+      <button class="container__button" (click)="textFormat()">Text</button>
+    </div>
+  </header>
+</div>
+
+<app-log-view [table]="table"></app-log-view>
